@@ -18,7 +18,7 @@ ol {
 body {
     font-size: 14px;
     line-height: 29px;
-    font-family: "맑은고딕";
+    font-family: 'NanumSquare';
     color: #000;
     background-color: #f6f2ed;
     min-width: 1500px;
@@ -33,6 +33,7 @@ body {
 /*header*/
 
 #header {
+    font-family: "맑은고딕";
     background-color: #eff7ee;
     position: fixed;
     top: 0;

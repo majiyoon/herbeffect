@@ -1,5 +1,31 @@
 @charset "utf-8";
 
+
+@font-face {
+    font-family: 'LotteMartDream';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'LotteMartDream';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'LotteMartDream';
+    font-style: normal;
+    font-weight: 300;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff') format('woff');
+}
+
+.lottemartdream * {
+    font-family: 'LotteMartDream', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +44,7 @@ ol {
 body {
     font-size: 14px;
     line-height: 29px;
-    font-family: "맑은고딕";
+    font-family: 'NanumSquare';
     color: #000;
     background-color: #f6f2ed;
     min-width: 1500px;
@@ -33,6 +59,7 @@ body {
 /*header*/
 
 #header {
+    font-family: "맑은고딕";
     background-color: #eff7ee;
     position: fixed;
     top: 0;
@@ -223,7 +250,7 @@ body {
 
 .t1 {
     color: #72624e;
-    font-family: "12월롯데드림";
+    font-family: 'LotteMartDream';
     font-size: 20px;
     text-align: center;
     font-weight: bold;
@@ -231,7 +258,8 @@ body {
 
 .t2 {
     color: #72624e;
-    font-family: "12월롯데드림";
+    font-family: 'LotteMartDream';
+    ;
     font-size: 16px;
     padding-top: 30px;
     padding-bottom: 70px;
@@ -243,7 +271,7 @@ body {
     width: 1320px;
     margin: 0 auto;
     color: #72624e;
-    font-family: "12월롯데드림";
+    font-family: 'LotteMartDream';
     font-size: 18px;
     padding: 20px;
     border-top: 3px solid #532c20;
